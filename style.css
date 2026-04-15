@@ -19,6 +19,10 @@ header {
     font-weight: 200;
 }
 
+h2 {
+    font-size: 1.7rem;
+}
+
 main {
     display: flex;
     justify-content: space-evenly;
@@ -32,7 +36,7 @@ main {
     background-color: #212121;
     color: #fff;
     padding: 18px;
-    width: 15em;
+    width: 14em;
     border-radius: 4px;
     font-weight: 500;
     text-decoration-line: none;
@@ -41,7 +45,10 @@ main {
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #212121;
-        color: #fff;
+    }
+
+    .card {
+        border: 2px solid #ccc;
     }
 }
 
